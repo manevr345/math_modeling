@@ -6,5 +6,7 @@ b = 4*N.i + -5*N.j
 print(a+ b)
 print(a - b)
 print(a.dot(b))
+print((a.magnitude())**2)
+print((b.magnitude())**2)
 print((a.magnitude()))
-
+print((b.magnitude()))
