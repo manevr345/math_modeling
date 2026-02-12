@@ -31,5 +31,5 @@ print(sym.diff(y, x(t)))
 y = 3*x(t)**2 - 5 * sym.sin(4 * x(t))
 print(sym.diff(y, x(t)))
 
-y = t
+y = t**2
 print(sym.diff(y, t))
